@@ -89,7 +89,8 @@ defaults:
       author_profile: true
       share: true
 
-og_image: "hero.png"
+header: 
+  image: "/assets/images/hero.png"
 
 author:
   name   : "Lionel London"
