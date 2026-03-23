@@ -1,10 +1,6 @@
 ---
 title: "Jupyter Notebook Library"
-layout: collection
 permalink: /jupyter-library/
-collection: jupyter
-entries_layout: grid
-classes: wide
+redirect_to: "https://oliverriba.github.io/bhjupyter.github.io/notebooks.html"
 ---
-
 A collection of Jupyter notebooks for gravitational wave analysis, numerical relativity, and related computational physics topics.
