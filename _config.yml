@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+_# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -112,7 +112,7 @@ defaults:
       path: ""
     values:
       header:
-        image: /assets/images/hero.png
+        overlay_image: /assets/images/hero.png
         overlay_filter: linear-gradient(rgba(0, 0, 0, 0), rgba(55, 65, 81, 0.6))
 
       
