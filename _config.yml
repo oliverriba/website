@@ -91,7 +91,7 @@ defaults:
 
 author:
   name   : "Lionel London"
-  avatar : "https://source.unsplash.com/400x400/?portrait,professional"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "Theoretical Physicist | Gravitational Waves & Numerical Relativity | Lecturer at King's College London"
   location: "London, UK"
   links:
