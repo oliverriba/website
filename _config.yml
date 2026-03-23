@@ -89,8 +89,7 @@ defaults:
       author_profile: true
       share: true
 
-header: 
-  image: "/assets/images/hero.png"
+
 
 author:
   name   : "Lionel London"
@@ -110,6 +109,9 @@ author:
     - label: "arXiv"
       icon: "fas fa-fw fa-book"
       url: "https://arxiv.org/search/?searchtype=author&query=London%2C+L"
+
+header: 
+  image: "/assets/images/hero.png"
 
 footer:
   links:
