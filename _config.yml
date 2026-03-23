@@ -92,7 +92,7 @@ defaults:
 author:
   name   : "Lionel London"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Theoretical Physicist | Gravitational Waves & Numerical Relativity | Lecturer at King's College London"
+  bio    : "Theoretical Physicist | Lecturer at King's College London"
   location: "London, UK"
   links:
     - label: "Email"
