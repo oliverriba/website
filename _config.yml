@@ -60,37 +60,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults for jupyter collection
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _jupyter (new!)
-  - scope:
-      path: ""
-      type: jupyter
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-
-
 author:
   name   : "Lionel London"
   avatar : "/assets/images/bio-photo.jpeg"
@@ -138,6 +107,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+  - scope:
+      path: ""
+    values:
+      header:
+        image: /assets/images/hero.png
+      
 
 category_archive:
   type: liquid
