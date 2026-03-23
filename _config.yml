@@ -18,7 +18,6 @@ title: Lionel London
 email: lionel.london@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Lionel London - Lecturer at King's College London.
-hero_image: "/assets/images/hero.png"
 minimal_mistakes_skin: dark
 search: true
 
@@ -89,6 +88,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
+
+og_image: "hero.png"
 
 author:
   name   : "Lionel London"
