@@ -7,3 +7,5 @@ main:
     url: /about/
   - title: "CV"
     url: /cv/
+  - title: "Recent Publications"
+    url: "https://inspirehep.net/authors/1987238"
