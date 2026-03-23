@@ -2,7 +2,7 @@ main:
   - title: "Posts"
     url: /posts/
   - title: "Jupyter Notebook Library"
-    url: /jupyter-library/
+    url: https://oliverriba.github.io/bhjupyter.github.io/notebooks.html
   - title: "Tags"
     url: /tags/
   - title: "About"
