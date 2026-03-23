@@ -111,7 +111,7 @@ author:
       url: "https://arxiv.org/search/?searchtype=author&query=London%2C+L"
 
 header: 
-  image: "/assets/images/hero.png"
+  og_image: "/assets/images/hero.png"
 
 footer:
   links:
