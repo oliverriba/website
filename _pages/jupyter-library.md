@@ -7,36 +7,34 @@ author_profile: true
 
 ## Jupyter Notebook Library
 
-A collection of interactive notebooks showcasing computational and visual work.
+A collection of interactive notebooks.
 
 <div class="notebook-grid">
 
+{% raw %}
+{% for nb in site.data.notebooks %}
   <div class="notebook-card">
-    <h3>Fractal Plot</h3>
-    <p>A colourful fractal visualisation generated in Python.</p>
+    <h3>{{ nb.title }}</h3>
+    <p>{{ nb.description }}</p>
 
-    <iframe 
-      src="https://oliverriba.github.io/bhjupyter.github.io/fractal.html"
-      loading="lazy">
-    </iframe>
+    <button class="open-notebook"
+            data-src="/assets/notebooks/{{ nb.file }}">
+      Preview Notebook
+    </button>
 
-    <a href="https://oliverriba.github.io/bhjupyter.github.io/fractal.html" target="_blank" class="notebook-link">
-      Open Full Notebook →
+    <a href="/assets/notebooks/{{ nb.file }}" target="_blank">
+      Open Full →
     </a>
   </div>
+{% endfor %}
+{% endraw %}
 
-  <div class="notebook-card">
-    <h3>Sample Plot</h3>
-    <p>Example matplotlib output rendered from a Jupyter notebook.</p>
+</div>
 
-    <iframe 
-      src="https://oliverriba.github.io/bhjupyter.github.io/sample_plot.html"
-      loading="lazy">
-    </iframe>
-
-    <a href="https://oliverriba.github.io/bhjupyter.github.io/sample_plot.html" target="_blank" class="notebook-link">
-      Open Full Notebook →
-    </a>
+<!-- Modal -->
+<div id="notebook-modal" class="notebook-modal">
+  <div class="notebook-modal-content">
+    <span class="close-modal">&times;</span>
+    <iframe id="notebook-frame"></iframe>
   </div>
-
 </div>
