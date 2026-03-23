@@ -1,11 +1,12 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Jupyter Notebook Library"
-    url: /jupyter-library/
+
   - title: "About"
     url: /about/
-  - title: "CV"
-    url: /cv/
   - title: "Recent Publications"
     url: "https://inspirehep.net/authors/1987238"
+  - title: "Jupyter Notebook Library"
+    url: /jupyter-library/
+  - title: "CV"
+    url: /cv/
+  - title: "Posts"
+    url: /posts/
