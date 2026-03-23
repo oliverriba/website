@@ -113,6 +113,8 @@ defaults:
     values:
       header:
         image: /assets/images/hero.png
+        overlay_filter: linear-gradient(rgba(0, 0, 0, 0), rgba(55, 65, 81, 0.6))
+
       
 
 category_archive:
