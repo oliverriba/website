@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Quasi-Normal Modes and Teukolsky’s Equation"
+title: "Quasi-Normal Modes and Teukolsky's Equation"
 date: 2026-04-21
 categories: [general relativity, black holes, mathematical physics]
 tags: [QNM, Kerr, Teukolsky, gravitational waves, spectral theory]
